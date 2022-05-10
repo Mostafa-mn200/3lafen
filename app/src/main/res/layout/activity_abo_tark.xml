@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koshari Abo Tarek"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="كشري أبو طارق من اقدم محلات الكشري في مصر وحاصل علي موسوعة جينيس - اكبر طبق كشري في العالم .. وفروع كشري ابو طارق في مصر والسعودية ودبي.."
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="6dp"
+        android:paddingRight="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="العنوان:تقاطع ش معروف مع ش شامبليون, وسط البلد, القاهره. "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="الخط الساخن : 16011"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+</LinearLayout>

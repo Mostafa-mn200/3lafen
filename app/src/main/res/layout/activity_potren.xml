@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pottery"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" كايرو فستيفال سيتي، ذا فيليدج، الدور الثانى"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" التلفون:01024620733 "
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان : سوث بارك مول-مدنتي "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التلفون : 01012228803  "
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان : 4 شارع محمد بيومى، ارض الجولف-مصر الجديدة "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التلفون : 0226906469  "
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان :  تيفولي بلازا عمر بن الخطاب ارض الجولف "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التلفون : 01027788137  "
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+</LinearLayout>

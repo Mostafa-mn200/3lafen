@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oras"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مكان رومانسي حيث تتمتع بوجبة أعدت خصيصا لك هو بالتأكيد صعب العثور عليه. يمكنك اكتشاف المكان المثالي لأخذ من تحب حيث ستستمتع بالخدمة والطعام المميز، وتكتشف مكان ممتع حيث يمكنك أن تجد كل المرح من البلاي ستيشن والبلياردو إلى الطاولة. استمتع بطعم الأطباق الفاخرة لدينا وقهوتنا اللذيذة. اشعر بالفرق على الطراز العالمي في مطعم وكافيه اوراس. إنه اختيار لن تندم عليه أبدا"
+        android:textColor="#000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="العنوان: 206 شارع الحجاز."
+        android:textColor="#000"
+        android:textSize="19dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التليفون: 21807022 – 01064809193"
+        android:textColor="#000"
+        android:textSize="19dp" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" يحتوى على عدد كبير من المطاعم و الكافيهات المتنوعة فى جو مفتوح open area و استمتع بالمشاية و المناظر الجميلة و اللاند سكيب و البحيرة الصناعية
+
+المول يعتبر اسعاره غالية نسبيا و ليس متوسط
+ "
+        android:textColor="#000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="العنوان: طريق النصر ، مساكن شيراتون."
+        android:textColor="#000"
+        android:textSize="19dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التليفون: الخط الساخن 19917"
+        android:textColor="#000"
+        android:textSize="19dp" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groppi Park"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="لمحل موجود بديكوراته القديمة، اللي طاغي عليها اللون البني، وفيه قعدة داخلية مكيفة وخارجية في الهواء الطلق، ودي اللي إحنا حبينا نقعد فيها وسط الموسيقى المختلفة والقعدة الهادية  "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان : 46 شارع عبد الخالق ثروت"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="25dp"
+        android:paddingRight="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="التلفون :  0223911946 - 0223911871  "
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:paddingRight="5dp"/>
+
+
+</LinearLayout>

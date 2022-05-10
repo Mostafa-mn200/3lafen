@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="قهوة الفشاوى"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مكان جميل للاستمتاع بالشاي والسحلب والكاركادية مع الأجواء المصرية والبائعين المتجولين والفنون الشعبية ومشاهدة صور المشاهير والأدباء الذين أرتادوا هذا المقهى منذ الثمانينات "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان : على بعد 2.8 كم من متحف الآثار المصرية "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="25dp"
+        android:paddingRight="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="التلفون :+20 2 25906755
+ "
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:paddingRight="5dp"/>
+
+
+</LinearLayout>

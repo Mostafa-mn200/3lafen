@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Einstein"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان :  سيتي ستارز، شارع عمر بن الخطاب، المرحلة 2، الطابق الأرضي"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التلفون : 01028188066 - 01097216413"
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان : سيتي سنتر"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:layout_marginTop="16dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="العنوان:   صن سيتي مول، الدور 3، طريق الاوتوستراد"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="التلفون :  01066686178"
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="العنوان :   19 شارع خالد بن الوليد "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" التلفون :  01020128910"
+        android:textColor="#F44336"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+</LinearLayout>

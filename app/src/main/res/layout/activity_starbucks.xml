@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iitemsCoffe.orasActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E37828">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starbucks"
+            android:textSize="28dp"
+            android:textColor="#FFF"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ViewFlipper
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العنوان: 70 شارع عمر بن الخطاب ، ميدان ألماظة ، ألماظة"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التليفون: 01280819995"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان: مربع 1258 ف، طريق الاوتوستراد، مساكن شيراتون"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التليفون: 01201605271"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان: طريق المطار، منطقة المطار"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التليفون: 0222684387"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان : سيتي سنتر، 3 شارع مكرم عبيد "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان : سيتي ستارز ، شارع عمر بن الخطاب ، المرحلة 2، الدور 3 "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان : سيتي ستارز ، شارع عمر بن الخطاب ، المرحلة 2، الدور 3 "
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان : أبراج نايل سيتي، كورنيش النيل"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان : تيفولى دوم زايد، مدينة الشيخ زايد"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="العنوان: صن سيتي مول، طريق الاوتوستراد ، الطابق الارضي"
+        android:textColor="#000"
+        android:textSize="19dp"
+        android:paddingRight="5dp"/>
+
+</LinearLayout>

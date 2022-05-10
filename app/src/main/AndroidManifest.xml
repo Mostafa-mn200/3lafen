@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a3lafan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".itemsResturant.HamzaActivity"></activity>
+        <activity android:name=".itemsResturant.HadramotAntaActivity" />
+        <activity android:name=".itemsResturant.PrinceActivity" />
+        <activity android:name=".itemsResturant.SobhiKaberActivity" />
+        <activity android:name=".itemsResturant.AboTarkActivity" />
+        <activity android:name=".splash.splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".iitemsCoffe.potrenActivity" />
+        <activity android:name=".iitemsCoffe.alfshawyActivity" />
+        <activity android:name=".iitemsCoffe.groppiActivity" />
+        <activity android:name=".iitemsCoffe.tolaActivity" />
+        <activity android:name=".iitemsCoffe.inchtainActivity" />
+        <activity android:name=".iitemsCoffe.costaActivity" />
+        <activity android:name=".iitemsCoffe.starbucksActivity" />
+        <activity android:name=".iitemsCoffe.districtActivity" />
+        <activity android:name=".iitemsCoffe.orasActivity" />
+        <activity android:name=".login.loginActivity" />
+        <activity android:name=".Home.MainActivity" />
+    </application>
+
+</manifest>

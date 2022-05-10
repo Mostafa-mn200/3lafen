@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.SettingFragment">
+
+
+    <TextView
+        android:id="@+id/Setting_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Setting"
+        android:drawableLeft="@drawable/settings"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:padding="16dp"
+        android:background="#E37828"/>
+
+    <TextView
+        android:id="@+id/share"
+        android:layout_below="@id/Setting_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Share App"
+        android:drawableLeft="@drawable/ic_share_black_24dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_below="@id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Rate App"
+        android:drawableLeft="@drawable/ic_star_border_black_24dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Logout"
+        android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+
+        android:layout_below="@id/rating"/>
+</RelativeLayout>
